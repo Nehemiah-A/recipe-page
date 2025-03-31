@@ -1,0 +1,67 @@
+/*****GLOBAL STYLES*****/
+html {
+    font-size: 16px;
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    color: hsl(24, 5%, 18%);
+    text-align: left;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Young Serif", serif;
+}
+
+h2 {
+    margin-top: 20px;
+    color: hsl(14, 45%, 36%);
+}
+
+.content-wrapper {
+	width: 100%;
+    max-width: 375px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: hsl(0, 0%, 100%);
+    text-align: center;
+    
+}
+
+
+/*****Header Styles*****/
+
+.hero-image {
+    width: 100%;
+    max-width: 275px; /* Ensures it does not exceed the mobile screen width */
+    display: block;
+    height: auto; /* Maintains aspect ratio */
+    margin: 0 auto;    
+    border-radius: 10px;
+    justify-content: center;
+
+}
+
+.image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+/*****Main Styles*****/
+
+.top-section,
+.second-section,
+.bottom-section {
+    display: flex;
+	justify-content: center;
+    flex-direction: column;
+}
